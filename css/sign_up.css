@@ -1,0 +1,66 @@
+.section {
+    width: 300px;
+    background-color: rgba(161, 73, 57, 0.734);
+    box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.80);
+    grid-area: section;
+    display: grid;
+    grid-template: 7fr 1fr 1fr;
+    grid-template-areas:
+        '1'
+        '2'
+        '3';
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: all 0.3s;
+    /* grid-gap: 10px; */
+}
+
+.form{
+    grid-area: 1;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 5px;
+}
+
+.form__h {
+    font-size: 24px;
+}
+
+.sign__up {
+    grid-area: 2;
+}
+
+.sign__in {
+    grid-area: 3;
+}
+
+
+
+/* .main{
+    perspective: 1000px;
+}
+
+.front,
+.back {
+    transition: 1s;
+    backface-visibility: hidden;
+}
+
+.front {
+    background-color: #fff;
+  }
+  
+.back {
+    background-color: black;
+    transform: rotateY(180deg);
+}
+
+.main:hover  .front{
+    transform: rotateY(180deg);
+}
+
+.main:hover  .back{
+    transform: rotateY(360deg);
+} */

@@ -1,0 +1,10 @@
+.info{
+    grid-area: 1;
+    display: grid;
+    /* grid-template: 
+        'name'
+        'pass'; */
+    justify-items: center;
+    align-items: center;
+    grid-gap: 10px;
+}
