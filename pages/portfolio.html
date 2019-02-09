@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/animate.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/portfolio.css">
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
 </head>
@@ -19,7 +21,7 @@
             <div class="header__text text">
                 Hello to the TEST
             </div>
-            <div class="header__button">
+            <!-- <div class="header__button">
                 <a href="sign_in.html" class="">
                     <div class="header__button_sign-in button">
                         Login in
@@ -30,28 +32,43 @@
                         Register
                     </div>
                 </a>
+            </div> -->
+            <div class="header__user">
+                #USER_NAME
             </div>
         </header>
         <main class="main">
             <section class="section">
                 <div class="info">
-                    <div class="h text">
+                    <div class="info__h text">
                         Your data:
                     </div>
-                    <div class="info__name info__text">Name:</div>
-                    <div class="info__email">Email:</div>
-                    <div class="info__city">City:</div>
-                    <div class="info__country">Country:</div>
-                    <div class="info__password">Password:</div>
+                    <div class="info__name info__child">
+                        <div>Name: </div>
+                        <div>some name</div>
+                    </div>
+                    <div class="info__email info__child">
+                        <div>Email: </div>
+                        <div>some name</div>
+                    </div>
+                    <div class="info__city info__child">
+                        <div>City: </div>
+                        <div>some name</div>
+                    </div>
+                    <div class="info__country info__child">
+                        <div>Country: </div>
+                        <div>some name</div>
+                    </div>
+                    <div class="info__password info__child">
+                        <div>Password: </div>
+                        <div>some name</div>
+                    </div>
                 </div>
-                <!-- <div class="sign__in">
-                    <div class="text sign__up_text">
-                        Press this button to sign up
+                <a href="sign_in.html" class="">
+                    <div class="change_user button">
+                        Change user
                     </div>
-                    <div class="button sign__up_button">
-                        Sign Up
-                    </div>
-                </div> -->
+                </a>
             </section>
         </main>
         <footer class="footer">

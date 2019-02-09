@@ -1,33 +1,17 @@
 .section {
-    width: 300px;
-    /* height: 230px; */
-    background-color: rgba(161, 73, 57, 0.734);
-    box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.80);
-    grid-area: section;
-    display: grid;
-    grid-template: 2fr 1fr/ 1fr;
+    grid-template: 2fr 1fr 1fr/ 1fr;
     grid-template-areas:
         '1'
-        '2';
-    justify-items: center;
-    align-items: center;
-    border-radius: 5px;
-    transition: all 0.3s;
-}
-
-.form{
-    grid-area: 1;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    grid-gap: 5px;
-}
-
-.form__h {
-    font-size: 24px;
+        '2'
+        '3';
 }
 
 .sign__in {
-    align-self: baseline;
+    /* align-self: baseline; */
     grid-area: 2;
+}
+
+.sign__up {
+    /* align-self: baseline; */
+    grid-area: 3;
 }
